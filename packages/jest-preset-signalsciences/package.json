@@ -8,7 +8,7 @@
     "preset",
     "signalsciences"
   ],
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/signalsciences/jsdx",
   "bugs": {
     "url": "https://github.com/signalsciences/jsdx/issues"
@@ -24,8 +24,8 @@
     "jest-preset.json"
   ],
   "dependencies": {
-    "babel-core": "^7.0.0-0",
     "@babel/core": "^7.0.0-0",
+    "babel-core": "^7.0.0-0",
     "babel-jest": "^23.6.0",
     "enzyme": "^3.4.4",
     "enzyme-adapter-react-16": "^1.7.0",
