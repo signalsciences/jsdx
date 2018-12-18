@@ -1,0 +1,37 @@
+{
+  "name": "jest-preset-signalsciences",
+  "author": "Signal Sciences",
+  "description": "Jest preset for Signal Sciences",
+  "keywords": [
+    "jest",
+    "enzyme",
+    "preset",
+    "signalsciences"
+  ],
+  "version": "0.1.0",
+  "homepage": "https://github.com/signalsciences/jsdx",
+  "bugs": {
+    "url": "https://github.com/signalsciences/jsdx/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/signalsciences/jsdx.git"
+  },
+  "license": "MIT",
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "jest-preset.json"
+  ],
+  "dependencies": {
+    "babel-core": "^7.0.0-0",
+    "@babel/core": "^7.0.0-0",
+    "babel-jest": "^23.6.0",
+    "enzyme": "^3.4.4",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "enzyme-to-json": "^3.3.3",
+    "jest": "^23.6.0",
+    "jest-environment-enzyme": "^7.0.1",
+    "jest-enzyme": "^7.0.1"
+  }
+}

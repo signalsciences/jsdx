@@ -1,0 +1,49 @@
+{
+  "name": "rollup-config-signalsciences",
+  "author": "Signal Sciences",
+  "description": "Rollup config for Signal Sciences",
+  "keywords": [
+    "rollup",
+    "config",
+    "signalsciences"
+  ],
+  "version": "0.1.0",
+  "homepage": "https://github.com/signalsciences/jsdx",
+  "bugs": {
+    "url": "https://github.com/signalsciences/jsdx/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/signalsciences/jsdx.git"
+  },
+  "license": "MIT",
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "index.js"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.0.0",
+    "caniuse-lite": "^1.0.30000697",
+    "postcss-bem-linter": "^3.1.0",
+    "postcss-calc": "^7.0.1",
+    "postcss-clean": "^1.1.0",
+    "postcss-cli": "^6.0.0",
+    "postcss-color-function": "^4.0.1",
+    "postcss-conditionals": "^2.1.0",
+    "postcss-custom-properties": "^8.0.9",
+    "postcss-discard-comments": "^4.0.0",
+    "postcss-each": "^0.10.0",
+    "postcss-for": "^2.1.1",
+    "postcss-import": "^12.0.0",
+    "postcss-nested": "^4.1.0",
+    "postcss-preset-env": "^6.4.0",
+    "postcss-reporter": "^6.0.0",
+    "rollup": "^0.68.0",
+    "rollup-plugin-babel": "beta",
+    "rollup-plugin-eslint": "^5.0.0",
+    "rollup-plugin-flow-entry": "^0.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-postcss": "^1.6.2"
+  }
+}

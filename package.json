@@ -1,0 +1,60 @@
+{
+  "name": "jsdx-monorepo",
+  "private": true,
+  "engines": {
+    "node": "^8.0.0",
+    "yarn": "^1.5.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional",
+      "@commitlint/config-lerna-scopes"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "babel-preset-signalsciences"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint-config-signalsciences"
+    ]
+  },
+  "eslintIgnore": [
+    "**/node_modules"
+  ],
+  "jest": {
+    "preset": "jest-preset-signalsciences"
+  },
+  "lint-staged": {
+    "packages/**/*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.2.1",
+    "@commitlint/config-conventional": "^7.1.2",
+    "@commitlint/config-lerna-scopes": "^7.2.1",
+    "flow-bin": "^0.88.0",
+    "husky": "^1.2.0",
+    "lerna": "^3.4.3",
+    "lerna-changelog": "^0.8.2",
+    "lint-staged": "^8.1.0",
+    "pre-commit": "1.2.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
