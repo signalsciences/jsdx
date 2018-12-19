@@ -32,6 +32,7 @@
     "enzyme-to-json": "^3.3.3",
     "jest": "^23.6.0",
     "jest-environment-enzyme": "^7.0.1",
-    "jest-enzyme": "^7.0.1"
+    "jest-enzyme": "^7.0.1",
+    "react-testing-library": "^5.4.1"
   }
 }
