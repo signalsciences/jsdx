@@ -1,20 +1,9 @@
 {
   "collectCoverageFrom": [
-    "<ROOT_DIR>/src/**/*.js"
+    "src/**/*.js",
+    "!**/node_modules/**"
   ],
-  "coverageReporters": ["text", "text-summary"],
-  "coverageThreshold": {
-    "global": {
-      "branches": 40,
-      "functions": 40,
-      "lines": 40,
-      "statements": 40
-    }
-  },
-  "moduleFileExtensions": [
-    "js",
-    "json"
-  ],
+  "coverageDirectory": "coverage",
   "snapshotSerializers": [
     "enzyme-to-json/serializer"
   ],
@@ -23,10 +12,6 @@
   "testEnvironmentOptions": {
     "enzymeAdapter": "react16"
   },
-  "testMatch": [
-    "<rootDir>/src/**/?(*.)spec.js"
-  ],
-  "testURL": "http://localhost",
   "transform": {
     "^.+\\.js$": "babel-jest"
   }
