@@ -1,4 +1,4 @@
-# JS/DX
+# jsdx
 
 Collection of opinionated javascript tools, presets, and configs to streamline
 developer experience at Signal Sciences.

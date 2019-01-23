@@ -26,13 +26,13 @@
   "dependencies": {
     "@babel/core": "^7.0.0-0",
     "babel-core": "^7.0.0-0",
-    "babel-jest": "^23.6.0",
-    "enzyme": "^3.4.4",
-    "enzyme-adapter-react-16": "^1.7.0",
-    "enzyme-to-json": "^3.3.3",
-    "jest": "^23.6.0",
-    "jest-environment-enzyme": "^7.0.1",
-    "jest-enzyme": "^7.0.1",
-    "react-testing-library": "^5.4.1"
+    "babel-jest": "23.6.0",
+    "enzyme": "3.8.0",
+    "enzyme-adapter-react-16": "1.7.1",
+    "enzyme-to-json": "3.3.5",
+    "jest": "23.6.0",
+    "jest-environment-enzyme": "7.0.1",
+    "jest-enzyme": "7.0.1",
+    "react-testing-library": "5.4.4"
   }
 }

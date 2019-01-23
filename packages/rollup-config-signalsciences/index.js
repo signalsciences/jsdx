@@ -1,6 +1,7 @@
 /* @flow */
 
 const path = require('path')
+const bundleSize = require('rollup-plugin-bundle-size')
 const babel = require('rollup-plugin-babel')
 const flowEntry = require('rollup-plugin-flow-entry')
 const postcss = require('rollup-plugin-postcss')
@@ -88,5 +89,6 @@ module.exports = {
     }),
     babel(),
     flowEntry(),
+    bundleSize(),
   ],
 }
