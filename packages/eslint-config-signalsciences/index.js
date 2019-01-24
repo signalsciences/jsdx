@@ -38,16 +38,7 @@ module.exports = {
     'react/jsx-curly-spacing': ['error', 'always'],
     'react/jsx-filename-extension': [1, { extensions: ['.js'] }],
     'react/require-default-props': 'off',
-    // allow devDependencies for test files, resolve from root
-    'import/no-extraneous-dependencies': [
-      'error',
-      {
-        devDependencies: ['**/*.test.js', '**/*.spec.js'],
-        packageDir: [
-          path.join(process.cwd(), 'package.json'),
-        ],
-      },
-    ],
+    'import/no-extraneous-dependencies': 'off',
     // flow vs default props
     'react/default-props-match-prop-types': 'off',
   },
