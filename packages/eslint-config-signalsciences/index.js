@@ -1,30 +1,18 @@
-const path = require('path')
-
 module.exports = {
-  root: true,
-  env: {
-    browser: true,
-    jest: true,
-    es6: true,
-  },
   parser: 'babel-eslint',
   extends: [
+    'plugin:compat/recommended',
     'plugin:flowtype/recommended',
     'plugin:jest/recommended',
     'airbnb',
   ],
   plugins: [
+    'compat',
     'flowtype',
     'jest',
     'react',
   ],
   rules: {
-    'flowtype/require-valid-file-annotation': [
-      'error',
-      'always', {
-        annotationStyle: 'block',
-      },
-    ],
     semi: ['error', 'never'],
     'comma-dangle': ['error', {
       arrays: 'always-multiline',
@@ -36,7 +24,8 @@ module.exports = {
     'jsx-quotes': ['error', 'prefer-single'],
     'space-before-function-paren': ['error', 'always'],
     'react/jsx-curly-spacing': ['error', 'always'],
-    'react/jsx-filename-extension': [1, { extensions: ['.js'] }],
+    // 'react/jsx-filename-extension': [1, { extensions: ['.js'] }],
+
     'react/require-default-props': 'off',
     'import/no-extraneous-dependencies': 'off',
     // flow vs default props
