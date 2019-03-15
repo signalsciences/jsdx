@@ -1,0 +1,28 @@
+{
+  "name": "browserslist-config-signalsciences",
+  "author": "Signal Sciences",
+  "description": "browserslist config for Signal Sciences",
+  "keywords": [
+    "browserslist",
+    "config",
+    "signalsciences"
+  ],
+  "version": "0.0.0",
+  "homepage": "https://github.com/signalsciences/jsdx",
+  "bugs": {
+    "url": "https://github.com/signalsciences/jsdx/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/signalsciences/jsdx.git"
+  },
+  "license": "MIT",
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "index.js"
+  ],
+  "devDependencies": {
+    "browserslist": "^4.4.2"
+  }
+}
