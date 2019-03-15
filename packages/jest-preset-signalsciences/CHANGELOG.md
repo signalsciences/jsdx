@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.5](https://github.com/signalsciences/jsdx/compare/jest-preset-signalsciences@0.0.4...jest-preset-signalsciences@0.0.5) (2019-03-15)
+
+**Note:** Version bump only for package jest-preset-signalsciences
+
+
+
+
+
 ## [0.0.4](https://github.com/signalsciences/jsdx/compare/jest-preset-signalsciences@0.0.3...jest-preset-signalsciences@0.0.4) (2019-02-13)
 
 **Note:** Version bump only for package jest-preset-signalsciences
