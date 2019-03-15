@@ -1,0 +1,28 @@
+{
+  "name": "stylelint-config-signalsciences",
+  "author": "Signal Sciences",
+  "description": "Stylelint config for Signal Sciences",
+  "keywords": [
+    "stylelint",
+    "config",
+    "signalsciences"
+  ],
+  "version": "0.0.0",
+  "homepage": "https://github.com/signalsciences/jsdx",
+  "bugs": {
+    "url": "https://github.com/signalsciences/jsdx/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/signalsciences/jsdx.git"
+  },
+  "license": "MIT",
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "index.js"
+  ],
+  "peerDependencies": {
+    "stylelint": "^9.0.0"
+  }
+}
