@@ -23,12 +23,12 @@
     "index.js"
   ],
   "dependencies": {
-    "@babel/core": "7.2.2",
-    "caniuse-lite": "1.0.30000936",
+    "@babel/core": "7.3.4",
+    "caniuse-lite": "1.0.30000948",
     "postcss-bem-linter": "3.2.0",
     "postcss-calc": "7.0.1",
     "postcss-clean": "1.1.0",
-    "postcss-cli": "6.1.1",
+    "postcss-cli": "6.1.2",
     "postcss-color-function": "4.0.1",
     "postcss-conditionals": "2.1.0",
     "postcss-custom-properties": "8.0.9",
@@ -36,15 +36,15 @@
     "postcss-each": "0.10.0",
     "postcss-for": "2.1.1",
     "postcss-import": "12.0.1",
-    "postcss-nested": "4.1.1",
-    "postcss-preset-env": "6.5.0",
+    "postcss-nested": "4.1.2",
+    "postcss-preset-env": "6.6.0",
     "postcss-reporter": "6.0.1",
-    "rollup": "1.1.2",
+    "rollup": "1.6.0",
     "rollup-plugin-babel": "4.3.2",
     "rollup-plugin-bundle-size": "1.0.3",
     "rollup-plugin-eslint": "5.0.0",
-    "rollup-plugin-flow-entry": "0.3.0",
-    "rollup-plugin-node-resolve": "4.0.0",
+    "rollup-plugin-flow-entry": "0.3.1",
+    "rollup-plugin-node-resolve": "4.0.1",
     "rollup-plugin-postcss": "2.0.3"
   }
 }
