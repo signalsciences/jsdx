@@ -22,8 +22,10 @@
     "README.md",
     "index.js"
   ],
+  "peerDependencies": {
+    "@babel/core": "^7.0.0"
+  },
   "dependencies": {
-    "@babel/core": "7.3.4",
     "caniuse-lite": "1.0.30000948",
     "postcss-bem-linter": "3.2.0",
     "postcss-calc": "7.0.1",

@@ -40,7 +40,14 @@
     ]
   },
   "dependencies": {
+    "@babel/core": "^7.0.0",
     "eslint": "^5.15.2",
+    "eslint-plugin-compat": "^3.0.1",
+    "eslint-plugin-flowtype": "^3.4.2",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-jest": "^22.4.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-react": "^7.12.4",
     "jest": "^24.5.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",

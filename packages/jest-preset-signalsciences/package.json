@@ -24,6 +24,7 @@
     "jest-preset.json"
   ],
   "peerDependencies": {
+    "@babel/core": "^7.0.0",
     "jest": ">=22.0.0"
   },
   "dependencies": {
