@@ -27,6 +27,7 @@
     "jest": ">=22.0.0"
   },
   "dependencies": {
+    "babel-jest": "^24.5.0",
     "enzyme": "3.9.0",
     "enzyme-adapter-react-16": "1.11.2",
     "enzyme-to-json": "3.3.5",

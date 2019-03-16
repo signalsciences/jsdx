@@ -1,9 +1,4 @@
 {
-  "collectCoverageFrom": [
-    "src/**/*.jsx?",
-    "!**/node_modules/**"
-  ],
-  "coverageDirectory": "coverage",
   "snapshotSerializers": [
     "enzyme-to-json/serializer"
   ],
@@ -13,8 +8,5 @@
   "testEnvironment": "enzyme",
   "testEnvironmentOptions": {
     "enzymeAdapter": "react16"
-  },
-  "transform": {
-    "^.+\\.jsx?$": "babel-jest"
   }
 }
