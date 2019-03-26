@@ -21,5 +21,24 @@
     "LICENSE.md",
     "README.md",
     "index.js"
-  ]
+  ],
+  "peerDependencies": {
+    "postcss-cli": "^6.1.2"
+  },
+  "dependencies": {
+    "caniuse-lite": "^1.0.30000697",
+    "postcss-calc": "^7.0.1",
+    "postcss-color-function": "^4.0.1",
+    "postcss-conditionals": "^2.1.0",
+    "postcss-custom-media": "^7.0.7",
+    "postcss-custom-properties": "^8.0.9",
+    "postcss-discard-comments": "^4.0.2",
+    "postcss-each": "^0.10.0",
+    "postcss-for": "^2.1.1",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.1.1",
+    "postcss-preset-env": "^6.5.0",
+    "postcss-reporter": "^6.0.1"
+  }
 }
