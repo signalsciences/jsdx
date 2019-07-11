@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/signalsciences/jsdx/compare/jest-preset-signalsciences@0.0.7...jest-preset-signalsciences@1.0.0) (2019-07-11)
+
+
+### chore
+
+* **jest-preset-signalsciences:** upgrade deps ([e10df48](https://github.com/signalsciences/jsdx/commit/e10df48))
+
+
+### BREAKING CHANGES
+
+* **jest-preset-signalsciences:** - potential breaking changes in dependency upgrades
+- switched from react-testing-library to new @testing-library/react
+  package
+
+
+
+
+
 ## [0.0.7](https://github.com/signalsciences/jsdx/compare/jest-preset-signalsciences@0.0.6...jest-preset-signalsciences@0.0.7) (2019-03-16)
 
 **Note:** Version bump only for package jest-preset-signalsciences
