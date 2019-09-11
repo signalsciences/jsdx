@@ -1,30 +1,14 @@
-/* @flow */
-
 const path = require('path')
-const bundleSize = require('rollup-plugin-bundle-size')
 const babel = require('rollup-plugin-babel')
-const flowEntry = require('rollup-plugin-flow-entry')
-const postcss = require('rollup-plugin-postcss')
+const bundleSize = require('rollup-plugin-bundle-size')
+const commonjs = require('rollup-plugin-commonjs')
 const resolve = require('rollup-plugin-node-resolve')
-
-/* PostCSS */
-const postcssImport = require('postcss-import')
-const postcssFor = require('postcss-for')
-const postcssEach = require('postcss-each')
-const postcssConditionals = require('postcss-conditionals')
-const postcssNested = require('postcss-nested')
-const postcssCustomProperties = require('postcss-custom-properties')
-const postcssCalc = require('postcss-calc')
-const postcssDiscardComments = require('postcss-discard-comments')
-const postcssColorFunction = require('postcss-color-function')
-const postcssPresetEnv = require('postcss-preset-env')
-const postcssReporter = require('postcss-reporter')
-const postcssClean = require('postcss-clean')
+const { terser } = require('rollup-plugin-terser')
 
 /* eslint-disable-next-line import/no-dynamic-require */
 const pkg = require(path.resolve(process.cwd(), './package.json'))
 
-const banner = `/**
+const banner = `/*!
  *
  * Copyright (c) ${(new Date()).getFullYear()} ${pkg.author}
  *
@@ -37,58 +21,58 @@ const banner = `/**
  */
 `
 
-module.exports = {
-  input: 'src/index.js',
-  output: [
-    {
+module.exports = [
+  {
+    input: 'src/index.js',
+    output: {
       banner,
-      file: pkg.main,
-      format: 'cjs',
+      name: pkg.name,
+      file: pkg.browser,
+      format: 'umd',
+      globals: {
+        react: 'React',
+      },
     },
-    {
-      banner,
-      file: pkg.module,
-      format: 'es',
-    },
-  ],
-  external: [
-    ...Object.keys(pkg.dependencies || {}),
-    ...Object.keys(pkg.peerDependencies || {}),
-  ],
-  plugins: [
-    resolve(),
-    // TODO: remove postcss dep
-    postcss({
-      plugins: [
-        postcssImport,
-        postcssFor,
-        postcssEach,
-        postcssConditionals,
-        postcssNested,
-        postcssCustomProperties({
-          preserve: false,
+    external: [
+      ...Object.keys(pkg.peerDependencies || {}),
+    ],
+    plugins: [
+      resolve(),
+      babel(),
+      commonjs(),
+      process.env.NODE_ENV === 'production'
+        && terser({
+          ecma: 5,
+          output: {
+            comments: /^!/,
+          },
           warnings: true,
         }),
-        postcssCalc({
-          mediaQueries: true,
-          selectors: true,
-        }),
-        postcssDiscardComments({
-          removeAll: true,
-        }),
-        postcssColorFunction(),
-        postcssPresetEnv({
-          autoprefixer: {
-            remove: false,
-          },
-          stage: 0,
-        }),
-        postcssReporter(),
-        postcssClean(),
-      ],
-    }),
-    babel(),
-    flowEntry(),
-    bundleSize(),
-  ],
-}
+      bundleSize(),
+    ],
+  },
+  {
+    input: 'src/index.js',
+    output: [
+      {
+        banner,
+        file: pkg.main,
+        format: 'cjs',
+      },
+      {
+        banner,
+        file: pkg.module,
+        format: 'es',
+      },
+    ],
+    external: [
+      ...Object.keys(pkg.dependencies || {}),
+      ...Object.keys(pkg.peerDependencies || {}),
+    ],
+    plugins: [
+      resolve(),
+      babel(),
+      bundleSize(),
+    ],
+  },
+]

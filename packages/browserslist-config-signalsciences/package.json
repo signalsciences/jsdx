@@ -21,8 +21,5 @@
     "LICENSE.md",
     "README.md",
     "index.js"
-  ],
-  "devDependencies": {
-    "browserslist": "^4.4.2"
-  }
+  ]
 }

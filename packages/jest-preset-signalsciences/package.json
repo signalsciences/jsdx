@@ -24,16 +24,15 @@
     "jest-preset.json"
   ],
   "peerDependencies": {
-    "@babel/core": "^7.0.0",
     "jest": "^24.5.0"
   },
   "dependencies": {
-    "@testing-library/react": "^8.0.4",
-    "babel-jest": "^24.5.0",
+    "@testing-library/react": "^9.1.4",
+    "babel-jest": "^24.9.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
-    "enzyme-to-json": "^3.3.5",
-    "jest-environment-enzyme": "^7.0.2",
-    "jest-enzyme": "^7.0.2"
+    "enzyme-to-json": "^3.4.0",
+    "jest-environment-enzyme": "^7.1.1",
+    "jest-enzyme": "^7.1.1"
   }
 }
