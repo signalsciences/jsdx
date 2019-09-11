@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/signalsciences/jsdx/compare/rollup-config-signalsciences@0.0.8...rollup-config-signalsciences@1.0.0) (2019-09-11)
+
+**Note:** Version bump only for package rollup-config-signalsciences
+
+
+
+
+
 ## [0.0.8](https://github.com/signalsciences/jsdx/compare/rollup-config-signalsciences@0.0.7...rollup-config-signalsciences@0.0.8) (2019-07-11)
 
 **Note:** Version bump only for package rollup-config-signalsciences
