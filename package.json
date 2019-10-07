@@ -7,67 +7,21 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "lint-staged"
     }
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional",
-      "@commitlint/config-lerna-scopes"
-    ]
-  },
-  "babel": {
-    "presets": [
-      "babel-preset-signalsciences"
-    ]
-  },
-  "eslintConfig": {
-    "extends": [
-      "eslint-config-signalsciences"
-    ]
-  },
-  "eslintIgnore": [
-    "**/node_modules"
-  ],
-  "jest": {
-    "preset": "jest-preset-signalsciences"
-  },
   "lint-staged": {
-    "packages/**/*.js": [
-      "eslint --fix",
+    "*.{js,md}": [
+      "prettier --write",
       "git add"
     ]
   },
-  "dependencies": {
-    "@babel/core": "^7.5.5",
-    "browserslist": "^4.7.0",
-    "eslint": "^6.1.0",
-    "eslint-plugin-compat": "^3.3.0",
-    "eslint-plugin-flowtype": "^4.2.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.15.2",
-    "eslint-plugin-jsx-a11y": "^6.2.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^1.7.0",
-    "jest": "^24.9.0",
-    "postcss-cli": "^6.1.2",
-    "prettier": "^1.18.1",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "rollup": "^1.12.0",
-    "stylelint": "^10.1.0"
-  },
   "devDependencies": {
-    "@commitlint/cli": "^8.1.0",
-    "@commitlint/config-conventional": "^8.1.0",
-    "@commitlint/config-lerna-scopes": "^8.1.0",
-    "husky": "^3.0.4",
+    "husky": "^3.0.8",
     "lerna": "^3.16.4",
-    "lerna-changelog": "^0.8.2",
-    "lint-staged": "^9.2.4",
-    "pre-commit": "1.2.2"
+    "lint-staged": "^9.4.1",
+    "pre-commit": "1.2.2",
+    "prettier": "^1.18.1"
   },
   "workspaces": {
     "packages": [

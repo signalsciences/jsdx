@@ -23,32 +23,32 @@
     "index.js"
   ],
   "peerDependencies": {
-    "eslint": "^6.1.0",
+    "@babel/core": "^7.6.2",
+    "eslint": "^6.5.1",
     "eslint-plugin-compat": "^3.3.0",
     "eslint-plugin-flowtype": "^4.2.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.0",
-    "eslint-plugin-prettier": "3.1.0",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^1.7.0"
-  },
-  "dependencies": {
-    "@babel/core": "^7.6.2",
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.5.1",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "rollup": "^1.23.1"
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^1.18.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
-    "@commitlint/config-conventional": "^8.2.0",
-    "@commitlint/config-lerna-scopes": "^8.2.0",
-    "husky": "^3.0.8",
-    "lint-staged": "^9.4.1"
+    "@babel/core": "^7.6.2",
+    "eslint": "^6.5.1",
+    "eslint-plugin-compat": "^3.3.0",
+    "eslint-plugin-flowtype": "^4.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^1.18.1"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.4.0"
   }
 }

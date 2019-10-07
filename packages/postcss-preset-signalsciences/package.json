@@ -25,6 +25,9 @@
   "peerDependencies": {
     "postcss-cli": "^6.1.2"
   },
+  "devDependencies": {
+    "postcss-cli": "^6.1.2"
+  },
   "dependencies": {
     "caniuse-lite": "^1.0.30000999",
     "postcss-calc": "^7.0.1",
