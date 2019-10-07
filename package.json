@@ -5,6 +5,9 @@
     "node": ">=8.0.0",
     "yarn": ">=1.5.0"
   },
+  "scripts": {
+    "format": "prettier --write 'packages/**/*.{js,md}' './*.{js,md}'"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"

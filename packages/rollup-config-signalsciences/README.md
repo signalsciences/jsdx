@@ -2,16 +2,13 @@
 
 Shared config for Signal Sciences projects.
 
-
 ## What problem are we solving?
 
 Managing configs across projects can be tedious... sharing is caring.
 
-
 ## What does this do?
 
 Provides a base config.
-
 
 ## What doesn't this do?
 
@@ -23,22 +20,19 @@ make it your own. :)
 
 Working on a SigSci project? Continue below:
 
-
 ## Getting started
 
 ```
 yarn add -D rollup rollup-config-signalsciences
 ```
 
-
 ## Usage
 
 ### Via `rollup.config.js`
 
 ```js
-module.exports = require('rollup-config-signalsciences')
+module.exports = require("rollup-config-signalsciences");
 ```
-
 
 ## References and related projects
 

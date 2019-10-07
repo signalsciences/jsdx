@@ -2,16 +2,13 @@
 
 Shared preset for Signal Sciences projects.
 
-
 ## What problem are we solving?
 
 Managing configs across projects can be tedious... sharing is caring.
 
-
 ## What does this do?
 
 Provides a base preset.
-
 
 ## What doesn't this do?
 
@@ -23,13 +20,11 @@ make it your own. :)
 
 Working on a SigSci project? Continue below:
 
-
 ## Getting started
 
 ```
 yarn add -D babel-preset-signalsciences
 ```
-
 
 ## Usage
 
@@ -42,7 +37,6 @@ yarn add -D babel-preset-signalsciences
   }
 }
 ```
-
 
 ## References and related projects
 

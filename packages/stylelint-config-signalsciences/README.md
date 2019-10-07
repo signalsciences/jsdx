@@ -2,16 +2,13 @@
 
 Shared eslint config for Signal Sciences projects.
 
-
 ## What problem are we solving?
 
 Managing configs across projects can be tedious... sharing is caring.
 
-
 ## What does this do?
 
 Provides a base config.
-
 
 ## What doesn't this do?
 
@@ -23,16 +20,13 @@ make it your own. :)
 
 Working on a SigSci project? Continue below:
 
-
 ## Getting started
 
 ```
 yarn add -D stylelint stylelint-config-signalsciences
 ```
 
-
 ## Usage
-
 
 ### Via `package.json`
 
@@ -43,7 +37,6 @@ yarn add -D stylelint stylelint-config-signalsciences
   }
 }
 ```
-
 
 ## References and related projects
 

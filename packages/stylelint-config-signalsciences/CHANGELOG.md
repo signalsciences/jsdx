@@ -7,17 +7,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package stylelint-config-signalsciences
 
-
-
-
-
 ## [0.0.2](https://github.com/signalsciences/jsdx/compare/stylelint-config-signalsciences@0.0.1...stylelint-config-signalsciences@0.0.2) (2019-07-11)
 
 **Note:** Version bump only for package stylelint-config-signalsciences
-
-
-
-
 
 ## 0.0.1 (2019-03-15)
 
