@@ -26,7 +26,7 @@
     "postcss-cli": "^6.1.2"
   },
   "dependencies": {
-    "caniuse-lite": "^1.0.30000989",
+    "caniuse-lite": "^1.0.30000999",
     "postcss-calc": "^7.0.1",
     "postcss-color-function": "^4.0.1",
     "postcss-conditionals": "^2.1.0",
