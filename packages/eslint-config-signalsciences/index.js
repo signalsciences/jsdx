@@ -1,5 +1,4 @@
 module.exports = {
-  parser: "babel-eslint",
   extends: [
     "airbnb",
     "plugin:compat/recommended",
@@ -9,13 +8,22 @@ module.exports = {
     "prettier/react"
   ],
   plugins: ["compat", "flowtype", "prettier"],
-  overrides: [
-    Object.assign({
-      files: ["**/*.test.js", "**/*.spec.js"],
-      env: { jest: true }
-    })
-  ],
+  parser: "babel-eslint",
   rules: {
     "react/jsx-filename-extension": ["error", { extensions: [".js"] }]
-  }
+  },
+  overrides: [
+    {
+      files: ["test/**/*.{js,jsx}", "**/*.test.{js,jsx}", "**/*.spec.{js,jsx}"],
+      env: { jest: true },
+      rules: {
+        "import/no-extraneous-dependencies": [
+          "error",
+          {
+            devDependencies: true
+          }
+        ]
+      }
+    }
+  ]
 };

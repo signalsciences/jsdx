@@ -23,7 +23,7 @@
     "index.js"
   ],
   "peerDependencies": {
-    "@babel/core": "^7.6.2"
+    "@babel/core": "^7.7.4"
   },
   "devDependencies": {
     "@babel/core": "^7.7.4"

@@ -24,7 +24,7 @@
     "jest-preset.json"
   ],
   "peerDependencies": {
-    "@babel/core": "^7.5.5",
+    "@babel/core": "^7.7.4",
     "jest": "^24.5.0",
     "react": "^16.8",
     "react-dom": "^16.8"

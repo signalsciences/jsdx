@@ -22,13 +22,13 @@
     "README.md",
     "index.js"
   ],
-  "devDependencies": {
+  "peerDependencies": {
     "@babel/core": "^7.7.4",
     "rollup": "^1.27.4"
   },
-  "peerDependencies": {
-    "@babel/core": "^7.6.2",
-    "rollup": "^1.21.2"
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "rollup": "^1.27.4"
   },
   "dependencies": {
     "rollup-plugin-babel": "^4.3.3",
