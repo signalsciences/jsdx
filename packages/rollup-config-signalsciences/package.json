@@ -7,7 +7,7 @@
     "config",
     "signalsciences"
   ],
-  "version": "2.0.4",
+  "version": "2.0.5",
   "homepage": "https://github.com/signalsciences/jsdx",
   "bugs": {
     "url": "https://github.com/signalsciences/jsdx/issues"
