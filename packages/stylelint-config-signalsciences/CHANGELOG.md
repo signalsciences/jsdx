@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.5](https://github.com/signalsciences/jsdx/compare/stylelint-config-signalsciences@0.0.4...stylelint-config-signalsciences@0.0.5) (2019-11-23)
+
+**Note:** Version bump only for package stylelint-config-signalsciences
+
 ## [0.0.4](https://github.com/signalsciences/jsdx/compare/stylelint-config-signalsciences@0.0.3...stylelint-config-signalsciences@0.0.4) (2019-10-07)
 
 **Note:** Version bump only for package stylelint-config-signalsciences
