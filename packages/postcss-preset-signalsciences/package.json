@@ -23,9 +23,6 @@
     "index.js"
   ],
   "peerDependencies": {
-    "postcss-cli": "^6.1.2"
-  },
-  "devDependencies": {
     "postcss-cli": "^7.1.0"
   },
   "dependencies": {
