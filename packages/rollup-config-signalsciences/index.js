@@ -1,8 +1,8 @@
 const path = require("path");
 const babel = require("rollup-plugin-babel");
 const bundleSize = require("rollup-plugin-bundle-size");
-const commonjs = require("rollup-plugin-commonjs");
-const resolve = require("rollup-plugin-node-resolve");
+const commonjs = require("@rollup/plugin-commonjs");
+const resolve = require("@rollup/plugin-node-resolve");
 const { terser } = require("rollup-plugin-terser");
 
 /* eslint-disable-next-line import/no-dynamic-require */
