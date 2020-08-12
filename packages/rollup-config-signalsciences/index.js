@@ -1,8 +1,8 @@
 const path = require("path");
-const babel = require("rollup-plugin-babel");
+const { babel } = require("@rollup/plugin-babel");
 const bundleSize = require("rollup-plugin-bundle-size");
 const commonjs = require("@rollup/plugin-commonjs");
-const resolve = require("@rollup/plugin-node-resolve");
+const { nodeResolve } = require("@rollup/plugin-node-resolve");
 const { terser } = require("rollup-plugin-terser");
 
 /* eslint-disable-next-line import/no-dynamic-require */
@@ -50,8 +50,8 @@ module.exports = [
     },
     external: [...Object.keys(pkg.peerDependencies || {})],
     plugins: [
-      resolve(),
-      babel(),
+      nodeResolve(),
+      babel({ babelHelpers: "bundled" }),
       commonjs(),
       process.env.NODE_ENV === "production" &&
         terser({
@@ -82,6 +82,6 @@ module.exports = [
       ...Object.keys(pkg.dependencies || {}),
       ...Object.keys(pkg.peerDependencies || {})
     ],
-    plugins: [resolve(), babel(), bundleSize()]
+    plugins: [nodeResolve(), babel({ babelHelpers: "bundled" }), bundleSize()]
   }
 ].filter(Boolean);

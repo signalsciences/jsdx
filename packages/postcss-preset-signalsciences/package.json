@@ -2,11 +2,7 @@
   "name": "postcss-preset-signalsciences",
   "author": "Signal Sciences",
   "description": "PostCSS preset for Signal Sciences",
-  "keywords": [
-    "postcss",
-    "preset",
-    "signalsciences"
-  ],
+  "keywords": ["postcss", "preset", "signalsciences"],
   "version": "4.0.4",
   "homepage": "https://github.com/signalsciences/jsdx",
   "bugs": {
@@ -17,17 +13,13 @@
     "url": "git+https://github.com/signalsciences/jsdx.git"
   },
   "license": "MIT",
-  "files": [
-    "LICENSE.md",
-    "README.md",
-    "index.js"
-  ],
+  "files": ["LICENSE.md", "README.md", "index.js"],
   "peerDependencies": {
-    "postcss-cli": "^7.1.0"
+    "postcss-cli": "^7.0.0"
   },
   "dependencies": {
-    "caniuse-lite": "^1.0.30001035",
-    "postcss-calc": "^7.0.2",
+    "caniuse-lite": "^1.0.30001113",
+    "postcss-calc": "^7.0.3",
     "postcss-color-function": "^4.0.1",
     "postcss-conditionals": "^2.1.0",
     "postcss-custom-media": "^7.0.7",
@@ -37,7 +29,7 @@
     "postcss-for": "^2.1.1",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
-    "postcss-nested": "^4.2.1",
+    "postcss-nested": "^4.2.3",
     "postcss-preset-env": "^6.7.0",
     "postcss-reporter": "^6.0.1"
   }

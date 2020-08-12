@@ -23,6 +23,6 @@
     "index.js"
   ],
   "peerDependencies": {
-    "stylelint": "^13.2.0"
+    "stylelint": "^13.0.0"
   }
 }
