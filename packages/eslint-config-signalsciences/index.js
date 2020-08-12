@@ -5,12 +5,12 @@ module.exports = {
     "plugin:flowtype/recommended",
     "plugin:prettier/recommended",
     "prettier/flowtype",
-    "prettier/react"
+    "prettier/react",
   ],
   plugins: ["compat", "flowtype", "prettier"],
   parser: "babel-eslint",
   rules: {
-    "react/jsx-filename-extension": ["error", { extensions: [".js"] }]
+    "react/jsx-filename-extension": ["error", { extensions: [".js"] }],
   },
   overrides: [
     {
@@ -20,10 +20,10 @@ module.exports = {
         "import/no-extraneous-dependencies": [
           "error",
           {
-            devDependencies: true
-          }
-        ]
-      }
-    }
-  ]
+            devDependencies: true,
+          },
+        ],
+      },
+    },
+  ],
 };

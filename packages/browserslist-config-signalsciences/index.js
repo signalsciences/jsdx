@@ -3,5 +3,5 @@ module.exports = [
   "last 1 version",
   "Firefox ESR",
   "not dead",
-  "not op_mini all"
+  "not op_mini all",
 ];

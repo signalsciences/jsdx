@@ -11,7 +11,7 @@ const discardCommentsPlugin = require("postcss-discard-comments");
 const presetEnvPlugin = require("postcss-preset-env");
 const reporterPlugin = require("postcss-reporter");
 
-module.exports = options => {
+module.exports = (options) => {
   let plugins = {
     import: {},
     for: {},
@@ -20,29 +20,29 @@ module.exports = options => {
     nested: {},
     customMedia: {},
     customProperties: {
-      preserve: false
+      preserve: false,
     },
     calc: {
       mediaQueries: true,
-      selectors: true
+      selectors: true,
     },
     colorFunction: {},
     discardComments: {
-      removeAll: true
+      removeAll: true,
     },
     env: {
       autoprefixer: {
         remove: false,
-        grid: "autoplace"
-      }
+        grid: "autoplace",
+      },
     },
-    reporter: {}
+    reporter: {},
   };
 
   if (options && options.plugins) {
     plugins = {
       ...plugins,
-      ...options.plugins
+      ...options.plugins,
     };
   }
 
@@ -65,7 +65,7 @@ module.exports = options => {
         ? discardCommentsPlugin(plugins.discardComments)
         : false,
       plugins.env ? presetEnvPlugin(plugins.env) : false,
-      plugins.reporter ? reporterPlugin(plugins.reporter) : false
-    ].filter(Boolean)
+      plugins.reporter ? reporterPlugin(plugins.reporter) : false,
+    ].filter(Boolean),
   };
 };

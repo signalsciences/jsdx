@@ -45,8 +45,8 @@ module.exports = [
       file: umd,
       format: "umd",
       globals: {
-        react: "React"
-      }
+        react: "React",
+      },
     },
     external: [...Object.keys(pkg.peerDependencies || {})],
     plugins: [
@@ -57,12 +57,12 @@ module.exports = [
         terser({
           ecma: 5,
           output: {
-            comments: /^!/
+            comments: /^!/,
           },
-          warnings: true
+          warnings: true,
         }),
-      bundleSize()
-    ]
+      bundleSize(),
+    ],
   },
   {
     input: "src/index.js",
@@ -70,18 +70,18 @@ module.exports = [
       {
         banner,
         file: cjs,
-        format: "cjs"
+        format: "cjs",
       },
       module && {
         banner,
         file: esm,
-        format: "es"
-      }
+        format: "es",
+      },
     ],
     external: [
       ...Object.keys(pkg.dependencies || {}),
-      ...Object.keys(pkg.peerDependencies || {})
+      ...Object.keys(pkg.peerDependencies || {}),
     ],
-    plugins: [nodeResolve(), babel({ babelHelpers: "bundled" }), bundleSize()]
-  }
+    plugins: [nodeResolve(), babel({ babelHelpers: "bundled" }), bundleSize()],
+  },
 ].filter(Boolean);
