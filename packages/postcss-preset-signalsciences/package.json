@@ -2,8 +2,12 @@
   "name": "postcss-preset-signalsciences",
   "author": "Signal Sciences",
   "description": "PostCSS preset for Signal Sciences",
-  "keywords": ["postcss", "preset", "signalsciences"],
-  "version": "4.0.4",
+  "keywords": [
+    "postcss",
+    "preset",
+    "signalsciences"
+  ],
+  "version": "4.0.5",
   "homepage": "https://github.com/signalsciences/jsdx",
   "bugs": {
     "url": "https://github.com/signalsciences/jsdx/issues"
@@ -13,7 +17,11 @@
     "url": "git+https://github.com/signalsciences/jsdx.git"
   },
   "license": "MIT",
-  "files": ["LICENSE.md", "README.md", "index.js"],
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "index.js"
+  ],
   "peerDependencies": {
     "postcss-cli": "^7.0.0"
   },
