@@ -2,8 +2,12 @@
   "name": "eslint-config-signalsciences",
   "author": "Signal Sciences",
   "description": "Eslint config for Signal Sciences",
-  "keywords": ["eslint", "config", "signalsciences"],
-  "version": "4.0.5",
+  "keywords": [
+    "eslint",
+    "config",
+    "signalsciences"
+  ],
+  "version": "4.0.6",
   "homepage": "https://github.com/signalsciences/jsdx",
   "bugs": {
     "url": "https://github.com/signalsciences/jsdx/issues"
@@ -13,7 +17,11 @@
     "url": "git+https://github.com/signalsciences/jsdx.git"
   },
   "license": "MIT",
-  "files": ["LICENSE.md", "README.md", "index.js"],
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "index.js"
+  ],
   "peerDependencies": {
     "@babel/core": "^7.13.0",
     "eslint": "^7.0.0",
