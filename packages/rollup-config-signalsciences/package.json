@@ -2,8 +2,12 @@
   "name": "rollup-config-signalsciences",
   "author": "Signal Sciences",
   "description": "Rollup config for Signal Sciences",
-  "keywords": ["rollup", "config", "signalsciences"],
-  "version": "4.0.6",
+  "keywords": [
+    "rollup",
+    "config",
+    "signalsciences"
+  ],
+  "version": "4.0.7",
   "homepage": "https://github.com/signalsciences/jsdx",
   "bugs": {
     "url": "https://github.com/signalsciences/jsdx/issues"
@@ -13,7 +17,11 @@
     "url": "git+https://github.com/signalsciences/jsdx.git"
   },
   "license": "MIT",
-  "files": ["LICENSE.md", "README.md", "index.js"],
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "index.js"
+  ],
   "peerDependencies": {
     "@babel/core": "^7.13.0",
     "rollup": "^2.0.0"
