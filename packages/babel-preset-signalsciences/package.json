@@ -2,11 +2,7 @@
   "name": "babel-preset-signalsciences",
   "author": "Signal Sciences",
   "description": "Babel preset for Signal Sciences",
-  "keywords": [
-    "babel",
-    "preset",
-    "signalsciences"
-  ],
+  "keywords": ["babel", "preset", "signalsciences"],
   "version": "4.0.5",
   "homepage": "https://github.com/signalsciences/jsdx",
   "bugs": {
@@ -17,13 +13,9 @@
     "url": "git+https://github.com/signalsciences/jsdx.git"
   },
   "license": "MIT",
-  "files": [
-    "LICENSE.md",
-    "README.md",
-    "index.js"
-  ],
+  "files": ["LICENSE.md", "README.md", "index.js"],
   "peerDependencies": {
-    "@babel/core": "^7.0.0"
+    "@babel/core": "^7.13.0"
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.13.0",

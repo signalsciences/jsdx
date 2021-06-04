@@ -2,12 +2,7 @@
   "name": "jest-preset-signalsciences",
   "author": "Signal Sciences",
   "description": "Jest preset for Signal Sciences",
-  "keywords": [
-    "jest",
-    "enzyme",
-    "preset",
-    "signalsciences"
-  ],
+  "keywords": ["jest", "enzyme", "preset", "signalsciences"],
   "version": "4.0.5",
   "homepage": "https://github.com/signalsciences/jsdx",
   "bugs": {
@@ -18,13 +13,9 @@
     "url": "git+https://github.com/signalsciences/jsdx.git"
   },
   "license": "MIT",
-  "files": [
-    "LICENSE.md",
-    "README.md",
-    "jest-preset.json"
-  ],
+  "files": ["LICENSE.md", "README.md", "jest-preset.json"],
   "peerDependencies": {
-    "@babel/core": "^7.0.0",
+    "@babel/core": "^7.13.0",
     "jest": "^26.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
