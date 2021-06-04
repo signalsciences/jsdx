@@ -4,8 +4,6 @@ module.exports = {
     "plugin:compat/recommended",
     "plugin:flowtype/recommended",
     "plugin:prettier/recommended",
-    "prettier/flowtype",
-    "prettier/react",
   ],
   plugins: ["compat", "flowtype", "prettier"],
   parser: "babel-eslint",
